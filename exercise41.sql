@@ -1,0 +1,5 @@
+--SELECT * FROM product;
+--SELECT prod_name, cost, discount FROM product;
+--SELECT, cost * COALESCE(discount * 1) AS Š„ˆø‰¿Ši FROM product;
+--SELECT  prod_name, cost, discount,to_char(cost * COALESCE(discount * 1),'99G999D99') AS Š„ˆø‰¿Ši  FROM product ORDER BY Š„ˆø‰¿Ši DESC LIMIT 3;
+--SELECT prod_name, cost, discount,to_char(cost * CASE WHEN discount IS NULL THEN 1 ELSE discount END,'99G999D99') AS Š„ˆø‰¿Ši  FROM product ORDER BY Š„ˆø‰¿Ši DESC LIMIT 3;

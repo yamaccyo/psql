@@ -1,0 +1,2 @@
+--SELECT emp_name, birthday FROM employee;
+--SELECT sal * 12 AS ”NŽû FROM employee;
