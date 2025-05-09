@@ -1,0 +1,6 @@
+--SELECT * FROM product WHERE cost >= 20000 ;
+--SELECT cust_id, cust_name FROM customer WHERE fax IS NULL; 
+--SELECT sales_no, psales_no, prod_id, price FROM sales WHERE psales_no BETWEEN 110 AND 119 ORDER BY price DESC; 
+--SELECT prod_id, prod_name,cost*discount FROM product WHERE prod_id IN(102,104,106) ORDER BY 3 DESC
+--SELECT cust_id, cust_address, delivery_date FROM packedsales WHERE cust_address LIKE'%èaíJãÊ%' AND delivery_date BETWEEN '1996-01-01'AND '1996-12-30';
+--SELECT cust_id, cust_name, tel FROM customer WHERE NOT(tel LIKE '03%' OR tel LIKE'06%');

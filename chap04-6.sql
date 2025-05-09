@@ -1,0 +1,7 @@
+--—á‘è1 (P120)
+--DELETE FROM employee WHERE sal >= 5000 ;
+--SELECT * FROM employee WHERE sal >= 5000 ;
+--DELETE FROM employee;
+--DELETE FROM product WHERE discount IS NULL;
+--DELETE FROM product;
+--SELECT * FROM product;
